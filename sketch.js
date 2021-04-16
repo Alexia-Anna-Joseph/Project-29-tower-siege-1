@@ -67,12 +67,12 @@ function setup() {
 
   block22 = new Block(900,110,30,40);
 
-  player = new Player(50,200,30,30);
+  
 
   ball = Bodies.circle(50,200,20);
   World.add(world,ball);
 
-  sling = new Chain(this.ball,{x:150, y:160});
+  
 
 }
 
